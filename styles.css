@@ -1,0 +1,43 @@
+/* Add your custom styles here */
+body {
+    font-family: 'Montserrat', Arial, sans-serif; /* Use Montserrat as the main font */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo {
+    max-width: 200px; /* Increase the logo size */
+    margin-bottom: 20px; /* More spacing below the logo */
+}
+
+select, input, button {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Montserrat', Arial, sans-serif; /* Use Montserrat for input elements */
+}
+
+button {
+    background-color: rgb(53, 116, 118);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 700; /* Use bold font for button text */
+}
+
+button:hover {
+    background-color: rgb(25, 76, 77);
+}
